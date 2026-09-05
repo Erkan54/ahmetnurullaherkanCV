@@ -50,7 +50,7 @@ export const Hero: React.FC = () => {
             {/* 3. Hero Headline: Satır Satır Reveal + Mobilde Ortalı + Masaüstünde Sola Yaslı (Türkçe karakter noktaları ve çıkıntıları için genişletilmiş satır yüksekliği ve overflow-visible) */}
             <h1 className="font-heading text-[30px] sm:text-[40px] md:text-[48px] lg:text-[50px] xl:text-[56px] text-[#171717] tracking-[-0.02em] leading-[1.18] mb-6 sm:mb-8 select-none w-full text-center lg:text-left">
               {headlineLines.map((line, idx) => (
-                <span key={line.text} className="block overflow-visible py-0.5">
+                <span key={line.text} className="block overflow-visible py-0.5 mb-[2px] last:mb-0">
                   <motion.span
                     initial={{ opacity: 0, y: 16 }}
                     animate={{ opacity: 1, y: 0 }}

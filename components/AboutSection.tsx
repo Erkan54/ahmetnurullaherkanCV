@@ -35,7 +35,7 @@ export const AboutSection: React.FC = () => {
             {/* Line-by-Line Headline Stagger (~80ms) */}
             <h2 className="font-heading text-2xl sm:text-3xl lg:text-[42px] font-extrabold tracking-tight leading-[1.18]">
               {titleLines.map((line, idx) => (
-                <span key={line.text} className="block overflow-visible py-0.5">
+                <span key={line.text} className="block overflow-visible py-0.5 mb-[2px] last:mb-0">
                   <motion.span
                     initial={{ opacity: 0, y: 16 }}
                     whileInView={{ opacity: 1, y: 0 }}

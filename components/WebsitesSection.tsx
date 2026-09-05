@@ -39,7 +39,7 @@ export const WebsitesSection: React.FC = () => {
       number: "02",
       name: "Teknoser Çizgi Mekanik",
       domain: "cizgimekanik.com",
-      url: "https://cizgimekanik.com",
+      url: "https://cizgi-mekanik.vercel.app",
       description: "1954'ten bu yana Sakarya'da endüstriyel ısıtma, soğutma, yangın tesisatı ve chiller sistemleri kurulumu yapan firmanın 70 yıllık tecrübesini yansıtan premium kurumsal web mimarisi.",
       role: "Endüstriyel Web · Kurumsal Mimari · SEO",
       imageSrc: "/assets/web-cizgimekanik.jpg",

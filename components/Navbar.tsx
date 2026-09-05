@@ -38,8 +38,8 @@ export const Navbar: React.FC = () => {
       initial={{ opacity: 0, y: -8 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.45, ease: easeNatural }}
-      className={`fixed top-0 left-0 right-0 z-50 bg-[#20201D]/90 backdrop-blur-md border-b border-white/10 select-none transition-all duration-300 ${
-        scrolled ? "h-[66px] shadow-[0_12px_36px_-6px_rgba(32,32,29,0.22)]" : "h-[77px] shadow-[0_4px_20px_-4px_rgba(32,32,29,0.12)]"
+      className={`fixed top-0 left-0 right-0 z-50 bg-[#20201D]/90 backdrop-blur-md border-b border-white/10 select-none h-[66px] transition-[box-shadow,background-color] md:transition-all duration-300 ${
+        scrolled ? "md:h-[66px] shadow-[0_12px_36px_-6px_rgba(32,32,29,0.22)]" : "md:h-[77px] shadow-[0_4px_20px_-4px_rgba(32,32,29,0.12)]"
       }`}
     >
       {/* Hairline Editorial Scroll Progress Indicator (Muted Gold #A39170) */}

@@ -28,13 +28,13 @@ export const Hero: React.FC = () => {
       style={{
         background: "linear-gradient(155deg, #F5F1E8 0%, #F7F3EB 48%, #FBFAF7 100%)",
       }}
-      className="relative min-h-[100dvh] pt-[77px] pb-4 sm:pb-6 border-b border-[#DED8CC] flex flex-col justify-between overflow-hidden"
+      className="relative min-h-[100vh] min-h-[100svh] pt-[66px] md:pt-[77px] pb-4 sm:pb-6 border-b border-[#DED8CC] flex flex-col justify-between overflow-hidden"
     >
-      {/* Hero Arka Plan Görseli (%10 Opaklık) */}
+      {/* Hero Arka Plan Görseli (%10 Opaklık - Üste Sabitlenmiş) */}
       <div
         style={{
           backgroundImage: "url('/assets/hero-bg.jpg')",
-          backgroundPosition: "center",
+          backgroundPosition: "center top",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}

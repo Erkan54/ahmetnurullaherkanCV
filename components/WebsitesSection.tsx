@@ -127,9 +127,15 @@ export const WebsitesSection: React.FC = () => {
                 <div className="p-6 sm:p-8 flex-1 flex flex-col justify-between">
                   <div>
                     {/* Numara & Rol */}
-                    <div className="flex items-center justify-between text-[11px] font-medium text-[#625D55] tracking-[0.08em] uppercase mb-3">
-                      <span className="font-bold text-[#9A8763]">{site.number}</span>
-                      <span>{site.role}</span>
+                    <div className="flex items-center justify-between gap-4 text-[11px] font-medium tracking-[0.08em] uppercase mb-3.5 pb-2.5 border-b border-[#DED8CC]/60">
+                      <div className="flex items-center gap-2 shrink-0">
+                        <span className="inline-flex items-center justify-center px-2 py-0.5 rounded-[4px] bg-[#9A8763]/12 border border-[#9A8763]/25 text-[#9A8763] font-heading font-extrabold text-[12px] tracking-wider">
+                          {site.number}
+                        </span>
+                      </div>
+                      <span className="text-right text-[10.5px] sm:text-[11px] text-[#625D55] font-medium leading-snug">
+                        {site.role}
+                      </span>
                     </div>
 
                     {/* Site Adı */}

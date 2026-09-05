@@ -56,8 +56,8 @@ export const Navbar: React.FC = () => {
       <div className="max-w-container mx-auto px-6 sm:px-10 lg:px-14 h-full flex items-center justify-between">
         {/* Left: Brand & Title with High Contrast + Responsive White-Framed Photo */}
         <Link href="/" className="flex items-center gap-3 group transition-opacity duration-200 hover:opacity-90">
-          {/* Responsive White-Framed Photo */}
-          <div className="md:hidden relative w-[42px] h-[42px] rounded-full p-[2px] bg-white shadow-sm shrink-0 overflow-hidden">
+          {/* Circular Photo Logo (Both Mobile & Web / Desktop) */}
+          <div className="relative w-[40px] h-[40px] sm:w-[42px] sm:h-[42px] md:w-[44px] md:h-[44px] rounded-full p-[2px] bg-white shadow-sm shrink-0 overflow-hidden transition-transform duration-250 group-hover:scale-105">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/assets/ahmet-hero.jpg"

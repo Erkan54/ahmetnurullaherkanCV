@@ -26,6 +26,16 @@ export const metadata: Metadata = {
       "Fikirleri çalışan sistemlere dönüştürüyorum. Bilgisayar mühendisliği öğrencisi, donanım ve yazılım projeleri.",
     siteName: "Ahmet Nurullah Erkan",
   },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/icon-512.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -36,6 +46,9 @@ export default function RootLayout({
   return (
     <html lang="tr" className="scroll-smooth">
       <head>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="alternate icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link

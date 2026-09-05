@@ -1,0 +1,25 @@
+# AHMET NURULLAH ERKAN — GÖRSEL DOSYALARI LİSTESİ
+
+Web sitesinde kullanılan ve buraya koymanız gereken 5 adet görsel:
+
+1. ahmet-hero.jpg
+   - Açıklama: Ana Sayfa Hero bölümündeki profesyonel, editoryal portre fotoğrafınız.
+   - Konum: public/assets/ahmet-hero.jpg (veya assets/ahmet-hero.jpg)
+
+2. haber-1.jpg
+   - Açıklama: 1. Medyabar haberinin ("Depremzedenin konumu 3 boyutlu tespit edilecek") kapak görseli.
+   - Konum: public/assets/haber-1.jpg
+
+3. haber-2.jpg
+   - Açıklama: 2. Medyabar haberinin ("Afet İletişim Ağı korku dolu anları engellemek istiyor") kapak görseli.
+   - Konum: public/assets/haber-2.jpg
+
+4. web-huzuratolyem.jpg
+   - Açıklama: Huzur Atölyem (huzuratolyem.com) web sitesinin temiz masaüstü ekran görüntüsü / önizlemesi.
+   - Konum: public/assets/web-huzuratolyem.jpg
+
+5. web-sakaryamat.jpg
+   - Açıklama: Sakarya Matalp Gül Hukuk (sakaryamatalpgulhukuk.com) web sitesinin temiz masaüstü ekran görüntüsü / önizlemesi.
+   - Konum: public/assets/web-sakaryamat.jpg
+
+Bu 5 görseli bu klasöre eklediğinizde site otomatik olarak görselleri yükleyecek ve editoryal çerçevelerinde gösterecektir!

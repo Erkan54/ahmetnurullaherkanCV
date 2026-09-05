@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projelerim | Ahmet Nurullah Erkan</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- PRELOADER -->
+    <div class="preloader">
+        <div class="preloader-content">AN</div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-img">AN</div>
+                <div class="logo-text">
+                    <span class="logo-name">Ahmet N. Erkan</span>
+                    <span class="logo-title">Gömülü Sistemler & AR-GE</span>
+                </div>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Ana Sayfa</a></li>
+                <li><a href="projeler.html" class="nav-link active">Projeler</a></li>
+                <li><a href="hakkimda.html" class="nav-link">Hakkımda</a></li>
+                <li><a href="#" class="btn btn-primary">CV İndir</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PORTFOLIO SECTION -->
+    <section class="section" style="padding-top: 10rem;">
+        <div class="container">
+            <div class="section-header">
+                <h1 class="section-title">Projelerim</h1>
+                <p class="section-subtitle">Donanım, gömülü sistemler, mobil ve web teknolojileri kullanarak geliştirdiğim gerçek dünya çözümleri.</p>
+            </div>
+            
+            <!-- Filters -->
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Tümü</button>
+                <button class="filter-btn" data-filter="embedded">Donanım & Ar-Ge</button>
+                <button class="filter-btn" data-filter="mobile">Mobil Uygulama</button>
+                <button class="filter-btn" data-filter="web">Web Geliştirme</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <a href="proje-rescueradar.html" class="project-card" data-category="embedded">
+                    <div class="project-img-wrapper">
+                        <div style="width:100%; height:100%; background: linear-gradient(45deg, #0066FF, #00E5FF);" class="project-img"></div>
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Donanım & Ar-Ge</span>
+                        <h3 class="project-title">RescueRadar</h3>
+                        <p class="project-desc">Afet sonrası arama kurtarma süreçlerini hızlandırmayı hedefleyen patentli Enkaz İçi 3D Konumlandırma Ağı.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">IoT Mesh</span>
+                            <span class="tech-tag">Kalman Filter</span>
+                            <span class="tech-tag">C++</span>
+                        </div>
+                        <span class="project-link">Detayları İncele →</span>
+                    </div>
+                </a>
+
+                <!-- Project 2 -->
+                <a href="proje-afet-iletisim.html" class="project-card" data-category="mobile">
+                    <div class="project-img-wrapper">
+                        <div style="width:100%; height:100%; background: linear-gradient(45deg, #FF6B6B, #FF8E53);" class="project-img"></div>
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Mobil</span>
+                        <h3 class="project-title">Afet İletişim Ağı</h3>
+                        <p class="project-desc">İnternetsiz veya baz istasyonu olmadan, cihazların Bluetooth ve Wi-Fi Direct ile P2P haberleşmesini sağlayan bas-konuş mimarisi.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Kotlin</span>
+                            <span class="tech-tag">P2P</span>
+                            <span class="tech-tag">Wi-Fi Direct</span>
+                        </div>
+                        <span class="project-link">Detayları İncele →</span>
+                    </div>
+                </a>
+
+                <!-- Project 3 -->
+                <a href="proje-takim-yildizi.html" class="project-card" data-category="web">
+                    <div class="project-img-wrapper">
+                        <div style="width:100%; height:100%; background: linear-gradient(45deg, #10B981, #34D399);" class="project-img"></div>
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Web</span>
+                        <h3 class="project-title">Takım Yıldızı</h3>
+                        <p class="project-desc">Öğrencilere özel dışarıya kapalı akademik iş birliği platformu. Görev dağılımı ve ders materyali paylaşımı (Notion benzeri).</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <span class="project-link">Detayları İncele →</span>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2026 Ahmet Nurullah Erkan. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

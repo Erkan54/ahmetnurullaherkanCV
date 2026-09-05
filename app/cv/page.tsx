@@ -64,10 +64,10 @@ export default function CvPage() {
                 Mühendislik Profili
               </h2>
               <div className="space-y-4 text-[16px] sm:text-[17px] text-[#625D55] leading-[1.7] font-normal">
-                <p>
+                <p className="mobile-justify text-justify md:text-left [text-justify:inter-word] hyphens-auto">
                   Sakarya Uygulamalı Bilimler Üniversitesi Bilgisayar Mühendisliği öğrencisiyim. Yazılım ve gömülü sistemler arasındaki fiziksel köprüleri kurarak gerçek dünyada çalışan teknolojiler geliştiriyorum.
                 </p>
-                <p>
+                <p className="mobile-justify text-justify md:text-left [text-justify:inter-word] hyphens-auto">
                   Üniversite bünyesinde kurumsal Dell PowerEdge R720 sunucularının yönetimi, donanım laboratuvarlarının bakımı ve işletim sistemi dağıtımı görevlerinde bizzat yer aldım. Teorik temellerimi radyo frekansları, P2P kablosuz mesh ağları ve sinyal işleme tabanlı patentli arama-kurtarma cihazlarına dönüştürerek ürün geliştirme odaklı çalışıyorum.
                 </p>
               </div>
@@ -101,7 +101,7 @@ export default function CvPage() {
                   <div className="text-[15px] font-medium text-[#625D55] mt-0.5">
                     Bilgisayar Mühendisliği Bölümü
                   </div>
-                  <p className="text-[14px] text-[#625D55] mt-3 leading-relaxed">
+                  <p className="text-[14px] text-[#625D55] mt-3 leading-relaxed mobile-justify text-justify md:text-left [text-justify:inter-word] hyphens-auto">
                     Gömülü sistemler, algoritma analizi, mikroişlemciler, ağ mimarileri ve yazılım mühendisliği temelleri.
                   </p>
                 </div>
@@ -118,7 +118,7 @@ export default function CvPage() {
                   <div className="text-[15px] font-medium text-[#625D55] mt-0.5">
                     Fen Bilimleri &amp; İleri Matematik
                   </div>
-                  <p className="text-[14px] text-[#625D55] mt-3 leading-relaxed">
+                  <p className="text-[14px] text-[#625D55] mt-3 leading-relaxed mobile-justify text-justify md:text-left [text-justify:inter-word] hyphens-auto">
                     İleri matematik, fizik ve temel algoritma mantığı üzerine yoğunlaşmış fen lisesi eğitimi.
                   </p>
                 </div>
@@ -282,7 +282,7 @@ export default function CvPage() {
                   &ldquo;Doğal Afetler Sonrasında Enkaz Altında Kalan Canlıların Yerini Elektromanyetik Dalgalar Aracılığıyla Tespit Eden Kablosuz Arama Kurtarma Konumlandırma Sistemi ve Yöntemi&rdquo;
                 </h3>
 
-                <p className="text-[14px] text-[#625D55] leading-relaxed">
+                <p className="text-[14px] text-[#625D55] leading-relaxed mobile-justify text-justify md:text-left [text-justify:inter-word] hyphens-auto">
                   Enkaz altına girmeden dışarıdan yerleştirilen yönlü alıcı modüller ve kazazedenin telefonundan yayılan elektromanyetik sinyaller üzerinden 3 eksenli (X, Y, Z derinlik) konumu Kalman filtreleme ile tespit eden patentli arama-kurtarma sistemi.
                 </p>
               </div>

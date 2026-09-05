@@ -149,7 +149,7 @@ export const NewsSection: React.FC = () => {
                     </h3>
 
                     {/* Kısa Özet */}
-                    <p className="text-[14px] sm:text-[15px] text-[#625D55] leading-relaxed mb-6 font-normal">
+                    <p className="text-[14px] sm:text-[15px] text-[#625D55] leading-relaxed mb-6 font-normal mobile-justify text-justify md:text-left [text-justify:inter-word] hyphens-auto">
                       {item.summary}
                     </p>
                   </div>

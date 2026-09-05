@@ -40,7 +40,7 @@ export const ContactSection: React.FC = () => {
             <h3 className="font-heading text-xl sm:text-2xl font-bold text-[#171717] tracking-tight">
               Birlikte bir teknoloji inşa edelim.
             </h3>
-            <p className="text-[16px] sm:text-[17px] text-[#625D55] leading-relaxed font-normal max-w-lg">
+            <p className="text-[16px] sm:text-[17px] text-[#625D55] leading-relaxed font-normal max-w-lg mobile-justify text-justify md:text-left [text-justify:inter-word] hyphens-auto">
               Ar-Ge projeleri, donanım/yazılım sistemleri, staj veya mühendislik iş birlikleri için bana doğrudan telefon veya e-posta yoluyla ulaşabilirsiniz.
             </p>
             <div className="pt-4 text-[12px] text-[#9A8763] font-semibold uppercase tracking-wider">

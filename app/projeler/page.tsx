@@ -96,7 +96,7 @@ export default function ProjelerPage() {
                         </Link>
                       </h2>
 
-                      <p className="text-[15px] sm:text-[16px] text-[#625D55] leading-relaxed font-normal">
+                      <p className="text-[15px] sm:text-[16px] text-[#625D55] leading-relaxed font-normal mobile-justify text-justify md:text-left [text-justify:inter-word] hyphens-auto">
                         {project.shortDesc}
                       </p>
 

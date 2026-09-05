@@ -62,10 +62,10 @@ export const AboutSection: React.FC = () => {
             transition={{ duration: 0.6, delay: 0.28, ease: easeNatural }}
             className="lg:col-span-7 flex flex-col items-start space-y-6 text-[17px] sm:text-[19px] text-[#625D55] leading-[1.7]"
           >
-            <p>
+            <p className="mobile-justify text-justify md:text-left [text-justify:inter-word] hyphens-auto">
               Sakarya Uygulamalı Bilimler Üniversitesi&apos;nde Bilgisayar Mühendisliği eğitimi alıyorum. Teorik bilgiyi yalnızca sınav kağıtlarında bırakmayıp; gömülü sistemler, kablosuz haberleşme ve yazılım mimarilerini fiziksel dünyanın acil ihtiyaçlarına yanıt veren çalışan sistemlere dönüştürüyorum.
             </p>
-            <p>
+            <p className="mobile-justify text-justify md:text-left [text-justify:inter-word] hyphens-auto">
               GSM şebekelerinin çöktüğü afet senaryolarında telefonları telsiz ağına dönüştüren P2P mesh protokollerinden, enkaz altındaki canların sinyallerini Kalman filtresiyle tespit eden patent başvurusu yapılmış konumlandırma donanımlarına kadar her çalışmamı sahada gerçek bir katma değer üretme disipliniyle geliştiriyorum.
             </p>
 

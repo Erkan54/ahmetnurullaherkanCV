@@ -143,7 +143,7 @@ export const WebsitesSection: React.FC = () => {
                     </div>
 
                     {/* Kısa Açıklama */}
-                    <p className="text-[14px] sm:text-[15px] text-[#625D55] leading-relaxed mb-6 font-normal">
+                    <p className="text-[14px] sm:text-[15px] text-[#625D55] leading-relaxed mb-6 font-normal mobile-justify text-justify md:text-left [text-justify:inter-word] hyphens-auto">
                       {site.description}
                     </p>
                   </div>

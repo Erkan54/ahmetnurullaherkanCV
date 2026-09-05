@@ -97,7 +97,7 @@ export const AfetBadge: React.FC = () => {
           </div>
 
           {/* 3. Açıklama Paragrafı */}
-          <p className="relative z-10 text-[14px] sm:text-[15px] text-white/80 leading-relaxed font-normal">
+          <p className="relative z-10 text-[14px] sm:text-[15px] text-white/80 leading-relaxed font-normal mobile-justify text-justify md:text-left [text-justify:inter-word] hyphens-auto">
             Deprem anında baz istasyonları çöktüğünde; akıllı telefonların Bluetooth ve Wi-Fi Direct ile birbirini aktarıcı olarak kullandığı, enkaz altından ses ve konum ileten P2P afet ağı çözümü.
           </p>
 

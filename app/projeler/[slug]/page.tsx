@@ -99,7 +99,7 @@ export default function ProjeDetayPage({
               {project.title}
             </h1>
 
-            <p className="text-xl md:text-2xl text-[#625D55] max-w-3xl leading-relaxed mb-8 font-normal">
+            <p className="text-xl md:text-2xl text-[#625D55] max-w-3xl leading-relaxed mb-8 font-normal mobile-justify text-justify md:text-left [text-justify:inter-word] hyphens-auto">
               {project.shortDesc}
             </p>
 
@@ -165,7 +165,7 @@ export default function ProjeDetayPage({
                 <h2 className="font-heading text-2xl md:text-3xl font-bold text-[#171717] tracking-tight mb-4">
                   Genel Bakış
                 </h2>
-                <p className="text-lg text-[#625D55] leading-relaxed font-normal">
+                <p className="text-lg text-[#625D55] leading-relaxed font-normal mobile-justify text-justify md:text-left [text-justify:inter-word] hyphens-auto">
                   {caseStudy.overview}
                 </p>
               </section>
@@ -178,7 +178,7 @@ export default function ProjeDetayPage({
                 <h2 className="font-heading text-2xl md:text-3xl font-bold text-[#171717] tracking-tight mb-4">
                   Gerçek Problem
                 </h2>
-                <p className="text-lg text-[#625D55] leading-relaxed font-normal">
+                <p className="text-lg text-[#625D55] leading-relaxed font-normal mobile-justify text-justify md:text-left [text-justify:inter-word] hyphens-auto">
                   {caseStudy.problem}
                 </p>
               </section>
@@ -191,7 +191,7 @@ export default function ProjeDetayPage({
                 <h2 className="font-heading text-2xl md:text-3xl font-bold text-[#171717] tracking-tight mb-4">
                   Mühendislik Yaklaşımı
                 </h2>
-                <p className="text-lg text-[#625D55] leading-relaxed font-normal">
+                <p className="text-lg text-[#625D55] leading-relaxed font-normal mobile-justify text-justify md:text-left [text-justify:inter-word] hyphens-auto">
                   {caseStudy.idea}
                 </p>
               </section>
@@ -204,7 +204,7 @@ export default function ProjeDetayPage({
                 <h2 className="font-heading text-2xl md:text-3xl font-bold text-[#171717] tracking-tight mb-4">
                   Ne İnşa Ettim?
                 </h2>
-                <p className="text-lg text-[#625D55] leading-relaxed mb-8 font-normal">
+                <p className="text-lg text-[#625D55] leading-relaxed mb-8 font-normal mobile-justify text-justify md:text-left [text-justify:inter-word] hyphens-auto">
                   {caseStudy.whatIBuilt}
                 </p>
 
@@ -217,7 +217,7 @@ export default function ProjeDetayPage({
                       <h3 className="font-heading text-base font-bold text-[#171717] mb-1">
                         {step.title}
                       </h3>
-                      <p className="text-[14px] text-[#625D55] leading-relaxed font-normal">
+                      <p className="text-[14px] text-[#625D55] leading-relaxed font-normal mobile-justify text-justify md:text-left [text-justify:inter-word] hyphens-auto">
                         {step.desc}
                       </p>
                     </div>
@@ -256,7 +256,7 @@ export default function ProjeDetayPage({
                   <h2 className="font-heading text-2xl md:text-3xl font-bold text-[#171717] tracking-tight mb-4">
                     Mühendis Olarak Neler Öğrendim?
                   </h2>
-                  <p className="text-base md:text-lg text-[#625D55] leading-relaxed italic font-normal">
+                  <p className="text-base md:text-lg text-[#625D55] leading-relaxed italic font-normal mobile-justify text-justify md:text-left [text-justify:inter-word] hyphens-auto">
                     &ldquo;{caseStudy.whatILearned}&rdquo;
                   </p>
                 </div>

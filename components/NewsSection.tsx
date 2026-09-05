@@ -72,7 +72,7 @@ export const NewsSection: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-8% 0px" }}
               transition={{ duration: 0.65, delay: 0.08, ease: easeNatural }}
-              className="font-heading text-3xl sm:text-4xl font-extrabold text-[#171717] tracking-tight"
+              className="font-heading text-2xl sm:text-3xl font-extrabold text-[#171717] tracking-tight leading-tight py-1"
             >
               YER ALDIĞIM HABERLER
             </motion.h2>
@@ -142,7 +142,7 @@ export const NewsSection: React.FC = () => {
                     </div>
 
                     {/* Başlık */}
-                    <h3 className="font-heading text-lg sm:text-xl font-bold text-[#171717] tracking-tight leading-snug mb-3 group-hover:text-[#20201D] transition-colors duration-200">
+                    <h3 className="font-heading text-base sm:text-lg font-bold text-[#171717] tracking-tight leading-snug mb-3 group-hover:text-[#20201D] transition-colors duration-200 py-0.5">
                       <a href={item.url} target="_blank" rel="noopener noreferrer">
                         {item.title}
                       </a>

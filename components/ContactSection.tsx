@@ -22,7 +22,7 @@ export const ContactSection: React.FC = () => {
           <div className="text-[11px] font-semibold text-[#9A8763] uppercase tracking-[0.14em] mb-2">
             DOĞRUDAN İLETİŞİM
           </div>
-          <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#171717] tracking-tight">
+          <h2 className="font-heading text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#171717] tracking-tight leading-tight py-1">
             İLETİŞİM
           </h2>
         </motion.div>
@@ -37,7 +37,7 @@ export const ContactSection: React.FC = () => {
             transition={{ duration: 0.55, delay: 0.1, ease: easeNatural }}
             className="lg:col-span-6 space-y-4"
           >
-            <h3 className="font-heading text-xl sm:text-2xl font-bold text-[#171717] tracking-tight">
+            <h3 className="font-heading text-lg sm:text-xl font-bold text-[#171717] tracking-tight leading-snug py-0.5">
               Birlikte bir teknoloji inşa edelim.
             </h3>
             <p className="text-[16px] sm:text-[17px] text-[#625D55] leading-relaxed font-normal max-w-lg mobile-justify text-justify md:text-left [text-justify:inter-word] hyphens-auto">

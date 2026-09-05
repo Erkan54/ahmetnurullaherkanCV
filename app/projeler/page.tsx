@@ -29,7 +29,7 @@ export default function ProjelerPage() {
             <div className="text-[11px] font-semibold text-[#9A8763] uppercase tracking-[0.14em] mb-2">
               ÇALIŞMALAR ARŞİVİ
             </div>
-            <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#171717] tracking-tight mb-3">
+            <h1 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#171717] tracking-tight leading-tight mb-3 py-1">
               PROJELER
             </h1>
             <p className="text-[18px] sm:text-[20px] text-[#625D55] font-normal">
@@ -89,7 +89,7 @@ export default function ProjelerPage() {
 
                       {/* Başlık (Hover translateX 4px) */}
                       <h2
-                        className="font-heading text-2xl sm:text-3xl lg:text-4xl font-bold text-[#171717] tracking-tight leading-tight transition-transform duration-280 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:translate-x-1"
+                        className="font-heading text-xl sm:text-2xl lg:text-3xl font-bold text-[#171717] tracking-tight leading-snug transition-transform duration-280 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:translate-x-1 py-0.5"
                       >
                         <Link href={`/projeler/${project.slug}`} className="hover:underline decoration-[#9A8763] underline-offset-8">
                           {project.title}

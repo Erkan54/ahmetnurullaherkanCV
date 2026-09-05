@@ -33,11 +33,11 @@ export const AboutSection: React.FC = () => {
             </motion.div>
 
             {/* Line-by-Line Headline Stagger (~80ms) */}
-            <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-[1.05]">
+            <h2 className="font-heading text-2xl sm:text-3xl lg:text-[42px] font-extrabold tracking-tight leading-[1.18]">
               {titleLines.map((line, idx) => (
-                <span key={line.text} className="block overflow-hidden">
+                <span key={line.text} className="block overflow-visible py-0.5">
                   <motion.span
-                    initial={{ opacity: 0, y: 22 }}
+                    initial={{ opacity: 0, y: 16 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, margin: "-10% 0px" }}
                     transition={{
@@ -45,7 +45,7 @@ export const AboutSection: React.FC = () => {
                       delay: 0.08 + idx * 0.08,
                       ease: easeNatural,
                     }}
-                    className={line.className}
+                    className={`${line.className} inline-block`}
                   >
                     {line.text}
                   </motion.span>

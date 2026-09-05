@@ -27,7 +27,7 @@ export default function CvPage() {
               <div className="text-[11px] font-semibold text-[#9A8763] uppercase tracking-[0.14em] mb-2">
                 PROFESYONEL ÖZGEÇMİŞ
               </div>
-              <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#171717] tracking-tight">
+              <h1 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#171717] tracking-tight leading-tight py-1">
                 CV &amp; HAKKIMDA
               </h1>
               <div className="text-[15px] sm:text-[16px] text-[#625D55] font-medium mt-2">
@@ -278,7 +278,7 @@ export default function CvPage() {
                   RESMİ BULUŞ BAŞLIĞI
                 </div>
 
-                <h3 className="font-heading text-lg sm:text-xl font-bold text-[#171717] tracking-tight leading-snug mb-4">
+                <h3 className="font-heading text-base sm:text-lg font-bold text-[#171717] tracking-tight leading-snug mb-4 py-0.5">
                   &ldquo;Doğal Afetler Sonrasında Enkaz Altında Kalan Canlıların Yerini Elektromanyetik Dalgalar Aracılığıyla Tespit Eden Kablosuz Arama Kurtarma Konumlandırma Sistemi ve Yöntemi&rdquo;
                 </h3>
 

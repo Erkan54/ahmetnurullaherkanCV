@@ -61,7 +61,7 @@ export const AfetBadge: React.FC = () => {
             </div>
 
             <div className="flex flex-col">
-              <h3 className="font-heading text-[22px] sm:text-[26px] font-extrabold text-white tracking-tight leading-tight">
+              <h3 className="font-heading text-[20px] sm:text-[23px] font-extrabold text-white tracking-tight leading-snug py-0.5">
                 AFET İLETİŞİM AĞI
               </h3>
               <p className="text-[12px] sm:text-[13px] font-semibold text-[#B6A27C] tracking-wide uppercase mt-0.5">
@@ -196,7 +196,7 @@ export const AfetBadge: React.FC = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6, delay: 0.18, ease: easeNatural }}
-                    className="font-heading text-[38px] xl:text-[42px] font-extrabold text-white tracking-tight leading-tight"
+                    className="font-heading text-[34px] xl:text-[38px] font-extrabold text-white tracking-tight leading-tight py-1"
                   >
                     AFET İLETİŞİM AĞI
                   </motion.h2>

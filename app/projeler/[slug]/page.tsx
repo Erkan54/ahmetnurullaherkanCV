@@ -95,7 +95,7 @@ export default function ProjeDetayPage({
               )}
             </div>
 
-            <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-extrabold text-[#171717] tracking-tight leading-tight mb-6">
+            <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#171717] tracking-tight leading-tight mb-6 py-1">
               {project.title}
             </h1>
 

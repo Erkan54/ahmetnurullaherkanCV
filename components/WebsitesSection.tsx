@@ -67,7 +67,7 @@ export const WebsitesSection: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-8% 0px" }}
               transition={{ duration: 0.65, delay: 0.08, ease: easeNatural }}
-              className="font-heading text-3xl sm:text-4xl font-extrabold text-[#171717] tracking-tight"
+              className="font-heading text-2xl sm:text-3xl font-extrabold text-[#171717] tracking-tight leading-tight py-1"
             >
               WEB SİTELERİM
             </motion.h2>
@@ -133,7 +133,7 @@ export const WebsitesSection: React.FC = () => {
                     </div>
 
                     {/* Site Adı */}
-                    <h3 className="font-heading text-xl sm:text-2xl font-bold text-[#171717] tracking-tight leading-snug mb-1 group-hover:text-[#20201D] transition-colors">
+                    <h3 className="font-heading text-lg sm:text-xl font-bold text-[#171717] tracking-tight leading-snug mb-1 group-hover:text-[#20201D] transition-colors py-0.5">
                       {site.name}
                     </h3>
 

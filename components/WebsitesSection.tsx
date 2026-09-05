@@ -35,14 +35,14 @@ export const WebsitesSection: React.FC = () => {
       imageSrc: "/assets/web-huzuratolyem.jpg",
     },
     {
-      id: "web-matalp",
+      id: "web-cizgimekanik",
       number: "02",
-      name: "Sakarya Matalp Gül Hukuk",
-      domain: "sakaryamatalpgulhukuk.com",
-      url: "https://sakaryamatalpgulhukuk.com",
-      description: "Sakarya merkezli hukuk ve danışmanlık bürosu için kurumsal kimlik standartlarına uygun olarak inşa edilen resmi web sitesi.",
-      role: "Kurumsal Web Mimarisi · Performans & SEO",
-      imageSrc: "/assets/web-sakaryamat.jpg",
+      name: "Teknoser Çizgi Mekanik",
+      domain: "cizgimekanik.com",
+      url: "https://cizgimekanik.com",
+      description: "1954'ten bu yana Sakarya'da endüstriyel ısıtma, soğutma, yangın tesisatı ve chiller sistemleri kurulumu yapan firmanın 70 yıllık tecrübesini yansıtan premium kurumsal web mimarisi.",
+      role: "Endüstriyel Web · Kurumsal Mimari · SEO",
+      imageSrc: "/assets/web-cizgimekanik.jpg",
     },
   ];
 

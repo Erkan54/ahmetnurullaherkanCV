@@ -104,10 +104,10 @@ export const NewsSection: React.FC = () => {
                   delay: index * 0.10,
                   ease: easeNatural,
                 }}
-                className="group flex flex-col justify-between bg-white border border-[#DED8CC] hover:border-[#B8B0A0] rounded-[10px] overflow-hidden transition-all duration-350 ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-1 shadow-[0_2px_12px_rgba(32,32,29,0.02)] hover:shadow-[0_8px_24px_rgba(32,32,29,0.05)]"
+                className="group flex flex-col justify-between bg-white border-2 border-[#DED8CC] hover:border-[#B8B0A0] rounded-[10px] overflow-hidden transition-all duration-350 ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-1 shadow-[0_2px_12px_rgba(32,32,29,0.02)] hover:shadow-[0_8px_24px_rgba(32,32,29,0.05)]"
               >
                 {/* Görsel Alanı: scale(1) -> scale(1.025), transition: 400ms */}
-                <div className="relative w-full aspect-[16/9] bg-[#F5F1E8] border-b border-[#DED8CC] overflow-hidden flex items-center justify-center">
+                <div className="relative w-full aspect-[16/9] bg-[#F5F1E8] border-b-2 border-[#DED8CC] overflow-hidden flex items-center justify-center">
                   {!hasError ? (
                     /* eslint-disable-next-line @next/next/no-img-element */
                     <img

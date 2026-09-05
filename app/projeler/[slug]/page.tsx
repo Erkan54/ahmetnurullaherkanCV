@@ -129,6 +129,18 @@ export default function ProjeDetayPage({
                 </a>
               )}
 
+              {project.links.github && (
+                <a
+                  href={project.links.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group inline-flex items-center px-4 py-2 rounded-[6px] border border-[#DED8CC] hover:border-[#B8B0A0] bg-white text-[#171717] text-[12px] font-medium tracking-wide transition-all duration-200 hover:-translate-y-[1px]"
+                >
+                  <span>GitHub (@Erkan54)</span>
+                  <ArrowUpRight size={13} className="ml-1 text-[#9A8763] transition-transform duration-250 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                </a>
+              )}
+
               <div className="text-[12px] font-medium text-[#9A8763] uppercase tracking-[0.08em] ml-auto">
                 TEKNOLOJİLER: {project.tech.join(" · ")}
               </div>

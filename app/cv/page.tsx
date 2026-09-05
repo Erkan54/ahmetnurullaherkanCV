@@ -33,10 +33,30 @@ export default function CvPage() {
               <div className="text-[15px] sm:text-[16px] text-[#625D55] font-medium mt-2">
                 Bilgisayar Mühendisliği Öğrencisi · Gömülü Sistemler · Ar-Ge · Yazılım · Sistemler
               </div>
+              <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 text-[13px] text-[#625D55] mt-3">
+                <a href="mailto:ahmetnurullaherkan@gmail.com" className="hover:text-[#171717] transition-colors">
+                  ahmetnurullaherkan@gmail.com
+                </a>
+                <span>·</span>
+                <span>0551 050 96 80</span>
+                <span>·</span>
+                <span>Sakarya, Türkiye</span>
+                <span>·</span>
+                <a
+                  href="https://github.com/Erkan54"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-[#171717] hover:text-[#9A8763] inline-flex items-center gap-1 transition-colors"
+                >
+                  <span>GitHub (@Erkan54)</span>
+                  <ArrowUpRight size={13} className="text-[#9A8763]" />
+                </a>
+              </div>
             </div>
 
             <a
               href="/Ahmet_Nurullah_Erkan_CV.pdf"
+              download="Ahmet_Nurullah_Erkan_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center justify-center h-[46px] px-6 rounded-[6px] bg-[#20201D]/90 text-[#F5F1E8] text-[13px] font-medium tracking-wide hover:bg-[#20201D] transition-all duration-200 hover:-translate-y-[1px] shadow-sm shrink-0"

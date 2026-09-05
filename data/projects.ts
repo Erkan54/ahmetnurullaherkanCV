@@ -55,6 +55,7 @@ export const projectsData: Project[] = [
     },
     tech: ["Gömülü C++", "ESP32", "BLE Sinyal Analizi", "Kalman Filtresi", "Outlier Gating", "3B Trilaterasyon"],
     links: {
+      github: "https://github.com/Erkan54",
       press: "https://medyabar.com/haber/28394669/genc-muhendis-adayindan-bir-yenilik-daha-depremzedenin-konumu-3-boyutlu-olarak-tespit-edilecek",
     },
     visualType: "3d-coordinate",
@@ -108,6 +109,7 @@ export const projectsData: Project[] = [
     metadata: "5K+ İNDİRME · ANDROID · P2P · BLUETOOTH",
     tech: ["Kotlin", "Android SDK", "Wi-Fi Direct", "Bluetooth LE", "P2P Mesh Protokolü"],
     links: {
+      github: "https://github.com/Erkan54",
       googlePlay: "https://play.google.com/store/apps/details?id=com.afetiletisim.deprem",
       press: "https://medyabar.com/haber/27871604/sakaryali-genc-muhendis-adayi-gelistirdigi-deprem-uygulamasiyla-korku-dolu-anlari-engellemek-istiyor",
     },
@@ -161,7 +163,9 @@ export const projectsData: Project[] = [
     highlights: ["MERN Stack", "Öğrenci Eşleştirme", "Görev Dağılımı", "Kapalı Devre Kampüs"],
     metadata: "AKADEMİK PLATFORM · MERN STACK · WEBSOCKETS · NOTION BENZERİ",
     tech: ["React.js", "Node.js", "MongoDB", "Express", "Tailwind CSS", "WebSockets"],
-    links: {},
+    links: {
+      github: "https://github.com/Erkan54",
+    },
     visualType: "academic-mockup",
     caseStudy: {
       overview:
@@ -202,7 +206,7 @@ export const projectsData: Project[] = [
     slug: "qr-siparis-sistemi",
     number: "04",
     title: "QR Sipariş Sistemi",
-    badge: "WEB APP · SAAS · ÜRÜN",
+    badge: "WEB APP · SAAS · AR-GE",
     category: "Restoran & Kafe Teknolojileri",
     year: "2025",
     shortDesc:
@@ -210,7 +214,9 @@ export const projectsData: Project[] = [
     highlights: ["QR Menü", "Anlık Sipariş Yönetimi", "Kampanya Modülü", "Mutfak Terminali"],
     metadata: "FULL-STACK SAAS · REAL-TIME WEBSOCKET · POSTGRESQL · TAILWIND",
     tech: ["TypeScript", "Next.js", "Node.js", "PostgreSQL", "WebSockets", "Tailwind CSS"],
-    links: {},
+    links: {
+      github: "https://github.com/Erkan54",
+    },
     visualType: "browser-mockup",
     caseStudy: {
       overview:
@@ -242,8 +248,8 @@ export const projectsData: Project[] = [
       whatILearned:
         "Yazılımın güzelliği kadar sahada garsonun ve mutfak aşçısının hayatını ne kadar kolaylaştırdığı önemlidir. Kullanıcı deneyimi sadece ekranda değil, dükkanın mutfağında başlar.",
       results: [
-        "Ahenk Kafe dahil işletmelerde canlı test edildi ve sipariş alma süresi %60 kısaltıldı.",
-        "Yoğun saatlerde sıfır sipariş kaybıyla yüksek hacimli adisyon akışı sağlandı.",
+        "Henüz hiçbir işletmede denenmedi; sistemin altyapısı, WebSocket anlık adisyon iletimi ve mutfak terminali mimarisi üzerine aktif olarak çalışmaya devam ediyoruz.",
+        "Masa QR tarama akışları, anlık sipariş senkronizasyonu ve operasyonel kararlılık geliştirme ortamında optimize edilmektedir.",
       ],
     },
   },

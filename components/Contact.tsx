@@ -50,7 +50,7 @@ export const Contact: React.FC = () => {
               </a>
 
               <a
-                href="https://github.com/ahmetnurullaherkan"
+                href="https://github.com/Erkan54"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center h-[52px] px-6 rounded-[12px] border border-[#333333] bg-transparent text-white text-[14px] font-medium transition-all duration-fast hover:bg-[#1A1A1A] hover:border-[#555555]"

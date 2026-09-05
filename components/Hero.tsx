@@ -77,7 +77,7 @@ export const Hero: React.FC = () => {
               Bilgisayar mühendisliği öğrencisi olarak yazılım, gömülü sistemler ve Ar-Ge alanlarında gerçek problemlere çalışan çözümler geliştiriyorum.
             </motion.p>
 
-            {/* 5. CTA Buttons (0.60s - Mobilde %10 daha büyük font) */}
+            {/* 5. CTA Buttons (PROJELERİ GÖR orijinal genişliğinde, CV'Mİ İNCELE büyütülüp tam eşitlendi) */}
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
@@ -86,20 +86,20 @@ export const Hero: React.FC = () => {
             >
               <Link
                 href="/projeler"
-                className="group inline-flex items-center justify-center h-[52px] sm:h-[54px] lg:h-[50px] px-8 rounded-[6px] bg-[#20201D]/90 text-[#F5F1E8] text-[14px] sm:text-[15px] lg:text-[13px] font-medium tracking-[0.08em] transition-all duration-200 hover:bg-[#20201D] hover:-translate-y-[1px]"
+                className="group inline-flex items-center justify-center w-[215px] sm:w-[225px] lg:w-[215px] h-[52px] sm:h-[54px] lg:h-[50px] px-6 sm:px-8 rounded-[6px] bg-[#20201D]/90 text-[#F5F1E8] text-[14px] sm:text-[15px] lg:text-[13px] font-medium tracking-[0.08em] whitespace-nowrap transition-all duration-200 hover:bg-[#20201D] hover:-translate-y-[1px]"
                 id="hero-projects-cta"
               >
                 <span>PROJELERİ GÖR</span>
-                <ArrowRight size={14} className="ml-2 text-[#B6A27C] transition-transform duration-250 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:translate-x-1" />
+                <ArrowRight size={14} className="ml-2 text-[#B6A27C] shrink-0 transition-transform duration-250 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:translate-x-1" />
               </Link>
 
               <Link
                 href="/cv"
-                className="group inline-flex items-center justify-center h-[52px] sm:h-[54px] lg:h-[50px] px-8 rounded-[6px] border border-[#20201D]/25 bg-transparent text-[#171717] text-[14px] sm:text-[15px] lg:text-[13px] font-medium tracking-[0.08em] transition-all duration-200 hover:bg-white hover:border-[#20201D]/90 hover:-translate-y-[1px]"
+                className="group inline-flex items-center justify-center w-[215px] sm:w-[225px] lg:w-[215px] h-[52px] sm:h-[54px] lg:h-[50px] px-6 sm:px-8 rounded-[6px] border border-[#20201D]/25 bg-transparent text-[#171717] text-[14px] sm:text-[15px] lg:text-[13px] font-medium tracking-[0.08em] whitespace-nowrap transition-all duration-200 hover:bg-white hover:border-[#20201D]/90 hover:-translate-y-[1px]"
                 id="hero-cv-cta"
               >
                 <span>CV&apos;Mİ İNCELE</span>
-                <span className="ml-1.5 transition-transform duration-250 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:translate-x-1 text-[#625D55]">→</span>
+                <ArrowRight size={14} className="ml-2 text-[#625D55] shrink-0 transition-transform duration-250 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:translate-x-1" />
               </Link>
             </motion.div>
           </div>

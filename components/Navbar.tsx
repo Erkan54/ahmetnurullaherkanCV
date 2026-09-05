@@ -38,9 +38,8 @@ export const Navbar: React.FC = () => {
       initial={{ opacity: 0, y: -8 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.45, ease: easeNatural }}
-      className={`fixed top-0 left-0 right-0 z-50 bg-[#20201D]/90 backdrop-blur-md border-b border-white/10 select-none h-[66px] transition-[box-shadow,background-color] md:transition-all duration-300 ${
-        scrolled ? "md:h-[66px] shadow-[0_12px_36px_-6px_rgba(32,32,29,0.22)]" : "md:h-[77px] shadow-[0_4px_20px_-4px_rgba(32,32,29,0.12)]"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 bg-[#20201D]/90 backdrop-blur-md border-b border-white/10 select-none h-[66px] transition-[box-shadow,background-color] md:transition-all duration-300 ${scrolled ? "md:h-[66px] shadow-[0_12px_36px_-6px_rgba(32,32,29,0.22)]" : "md:h-[77px] shadow-[0_4px_20px_-4px_rgba(32,32,29,0.12)]"
+        }`}
     >
       {/* Hairline Editorial Scroll Progress Indicator (Muted Gold #A39170) */}
       <motion.div
@@ -50,9 +49,8 @@ export const Navbar: React.FC = () => {
 
       {/* Topbar Altı Shader (Kaydırırken Topbar İle Birlikte Gelen Derinlik Gradyanı) */}
       <div
-        className={`absolute top-full left-0 right-0 pointer-events-none transition-all duration-300 ${
-          scrolled ? "h-6 opacity-100" : "h-3.5 opacity-60"
-        } bg-gradient-to-b from-black/25 via-black/8 to-transparent`}
+        className={`absolute top-full left-0 right-0 pointer-events-none transition-all duration-300 ${scrolled ? "h-6 opacity-100" : "h-3.5 opacity-60"
+          } bg-gradient-to-b from-black/25 via-black/8 to-transparent`}
       />
 
       <div className="max-w-container mx-auto px-6 sm:px-10 lg:px-14 h-full flex items-center justify-between">
@@ -73,7 +71,7 @@ export const Navbar: React.FC = () => {
               AHMET NURULLAH ERKAN
             </span>
             <span className="text-[11px] sm:text-[12px] font-semibold tracking-[0.14em] !text-[#B6A27C] uppercase -mt-0.5">
-              ARGE &amp; GÖMÜLÜ SİSTEMLER
+              AR-GE &amp; GÖMÜLÜ SİSTEMLER
             </span>
           </div>
         </Link>
@@ -86,18 +84,16 @@ export const Navbar: React.FC = () => {
               <Link
                 key={link.label}
                 href={link.href}
-                className={`relative py-1 transition-colors duration-200 ${
-                  isActive
-                    ? "text-[#F7F4EC] font-semibold"
-                    : "text-white/70 hover:text-[#F7F4EC] font-medium"
-                }`}
+                className={`relative py-1 transition-colors duration-200 ${isActive
+                  ? "text-[#F7F4EC] font-semibold"
+                  : "text-white/70 hover:text-[#F7F4EC] font-medium"
+                  }`}
               >
                 <span>{link.label}</span>
                 {/* Micro Underline Animation */}
                 <span
-                  className={`absolute bottom-0 left-0 h-[1px] bg-[#B6A27C] transition-transform duration-250 ease-[cubic-bezier(0.22,1,0.36,1)] ${
-                    isActive ? "w-full scale-x-100" : "w-full scale-x-0 group-hover:scale-x-100 origin-left hover:scale-x-100"
-                  }`}
+                  className={`absolute bottom-0 left-0 h-[1px] bg-[#B6A27C] transition-transform duration-250 ease-[cubic-bezier(0.22,1,0.36,1)] ${isActive ? "w-full scale-x-100" : "w-full scale-x-0 group-hover:scale-x-100 origin-left hover:scale-x-100"
+                    }`}
                   style={{
                     transformOrigin: "left",
                     transform: isActive ? "scaleX(1)" : undefined,
@@ -138,9 +134,8 @@ export const Navbar: React.FC = () => {
                 key={link.label}
                 href={link.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className={`py-1 transition-colors ${
-                  pathname === link.href ? "text-[#F7F4EC] font-semibold" : "text-white/70 hover:text-[#F7F4EC]"
-                }`}
+                className={`py-1 transition-colors ${pathname === link.href ? "text-[#F7F4EC] font-semibold" : "text-white/70 hover:text-[#F7F4EC]"
+                  }`}
               >
                 {link.label}
               </Link>
